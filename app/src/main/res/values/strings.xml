@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WordQuiz</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="celebrity_meaning">a famous person, the state of being well known.</string>
+    <string name="finish_name">Finish</string>
+    <string name="complete_name">You completed problem solving !!</string>
+    <string name="radio1_name">All star</string>
+    <string name="button2_name">Celebrity</string>
+    <string name="button3_name">Audience</string>
+    <string name="button4_name">Artist</string>
+    <string name="title_nav_name">Word Quiz</string>
+    <string name="about_nav_name">About App</string>
+    <string name="rule_nav_name">Rules for App</string>
+    <string name="version_name">software build version : 1.0.0</string>
+    <string name="rule_name">Word quiz rules:  \n\nRead a sentence and check the word with right meaning.</string>
+  </resources>
