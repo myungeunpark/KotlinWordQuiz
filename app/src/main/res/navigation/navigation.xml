@@ -44,6 +44,14 @@
         <action
             android:id="@+id/action_finishFragment_to_titleFragmentId"
             app:destination="@id/titleFragmentId" />
+        <argument
+            android:name="winScore"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="result"
+            app:argType="string"
+            android:defaultValue="pass" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"

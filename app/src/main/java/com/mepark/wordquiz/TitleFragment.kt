@@ -1,6 +1,8 @@
 package com.mepark.wordquiz
 
+import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
@@ -14,12 +16,74 @@ import com.mepark.wordquiz.databinding.FragmentTitleBinding
  */
 class TitleFragment : Fragment() {
 
+    private val TAG : String = TitleFragment::class.java.simpleName
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        Log.d(TAG, "####v onAttached() is called.")
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.d(TAG, "####v onCreate() is called.")
+
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        Log.d(TAG, "####v onDestroy() is called.")
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        Log.d(TAG, "####v onStart() is called.")
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        Log.d(TAG, "####v onStop() is called.")
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        Log.d(TAG, "####v onPause() is called.")
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        Log.d(TAG, "####v onResume() is called.")
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        Log.d(TAG, "####v onViewCreated() is called.")
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+
+        Log.d(TAG, "####v onDestroyView() is called.")
+    }
+
+    override fun onDetach() {
+        super.onDetach()
+
+        Log.d(TAG, "####v onDetached() is called.")
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
 
+        Log.d(TAG, "####v onCreateView() is called.")
         val binding = DataBindingUtil.inflate<FragmentTitleBinding>(inflater,
             R.layout.fragment_title,container,false)
 

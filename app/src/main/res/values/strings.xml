@@ -4,7 +4,7 @@
     <string name="celebrity_meaning">a famous person, the state of being well known.</string>
     <string name="finish_name">Finish</string>
     <string name="complete_name">You completed problem solving !!</string>
-    <string name="radio1_name">All star</string>
+    <string name="radio1_name">Singer</string>
     <string name="button2_name">Celebrity</string>
     <string name="button3_name">Audience</string>
     <string name="button4_name">Artist</string>
@@ -13,4 +13,8 @@
     <string name="rule_nav_name">Rules for App</string>
     <string name="version_name">software build version : 1.0.0</string>
     <string name="rule_name">Word quiz rules:  \n\nRead a sentence and check the word with right meaning.</string>
-  </resources>
+    <string name="score_format">Score : %d</string>
+    <string name="timer_format">Timer : %s</string>
+    <string name="index_format">%d/6</string>
+    <string name="try_again">Time out.\nPlease try again.</string>
+</resources>
